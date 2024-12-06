@@ -21,7 +21,7 @@ app.post("/register",async function(req,res)
         email:email,
         contact:contact
     })
-    res.send("Participent Registered Sucessfully");
+    res.send("Participent Registered Sucessfully !!");
 
 })
 
