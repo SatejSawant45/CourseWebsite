@@ -46,8 +46,8 @@ export default function Workshop()
                         </div>
 
                         <div className="spave-y-4">
-                            <h4 className="text-white font-bold text-xl">What you will learn</h4>
-                            <ul className="sapce-y-2">
+                            <h4 className="text-white font-bold text-xl mb-2">What you will learn</h4>
+                            <ul className="space-y-2">
                                 {[  'Technical Analysis Fundamentals',
                                     'Chart Pattern Recognition',
                                     'Risk Management Strategies',
