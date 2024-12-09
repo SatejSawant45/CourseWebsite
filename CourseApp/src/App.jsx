@@ -11,12 +11,13 @@ function App() {
 
   return (
     <>
+    <div className="min-h-screen bg-customDark">
       <Navbar></Navbar>
       <Hero></Hero>
       <About></About>
       <Workshop></Workshop>
       <Footer></Footer>
-      
+      </div>
 
       
     </>
