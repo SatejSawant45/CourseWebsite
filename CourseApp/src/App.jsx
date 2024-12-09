@@ -3,6 +3,7 @@ import "./index.css"
 import Navbar from './componants/Navbar'
 import Hero from './componants/Hero'
 import About from './componants/About'
+import Workshop from './componants/Workshop'
 
 function App() {
   
@@ -12,6 +13,8 @@ function App() {
       <Navbar></Navbar>
       <Hero></Hero>
       <About></About>
+      <Workshop></Workshop>
+
       
     </>
   )
