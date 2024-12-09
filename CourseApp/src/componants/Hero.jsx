@@ -3,7 +3,7 @@ import { TrendingUp , Award , Users } from 'lucide-react'
 export default function Hero()
 {
     return(
-        <section id="home" classNmae="pt-20 pb-16">
+        <section id="home" className="pt-20 pb-16">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex flex-col md:flex-row items-center justify-between py-20">
                     
