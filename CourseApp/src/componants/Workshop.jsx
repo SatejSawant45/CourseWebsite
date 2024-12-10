@@ -1,6 +1,6 @@
 import { Clock, Users, BookOpen, CheckCircle } from 'lucide-react';
 
-export default function Workshop()
+export default function Workshop({onRegisterClick})
 {
     return(
         <section id="workshop" className="py-20">
@@ -89,7 +89,7 @@ export default function Workshop()
                                     <p className="text-gray-300">One time payment</p>
                                 </div>
 
-                                <button className="w-full bg-indigo-600 text-white py-3 rounded-lg font-semibold hover:bg-indigo-700 transition-colors">Enroll Now</button>
+                                <button onClick={onRegisterClick} className="w-full bg-indigo-600 text-white py-3 rounded-lg font-semibold hover:bg-indigo-700 transition-colors">Enroll Now</button>
 
 
 

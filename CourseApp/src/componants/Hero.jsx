@@ -14,7 +14,7 @@ export default function Hero()
                         <p className="text-gray-200 text-xl mb-8">
                             Learn professional trading stratigies form industry experts and start your journey to financial freedom
                         </p>
-                        <button className="bg-indigo-600 text-white px-6 py-2 rounded-full hover:bg-indigo-700 transition-colors">Start Learning Now</button>
+                        <button  className="bg-indigo-600 text-white px-6 py-2 rounded-full hover:bg-indigo-700 transition-colors"><a href="#workshop">Start Learning Now</a></button>
 
                     </div>
 

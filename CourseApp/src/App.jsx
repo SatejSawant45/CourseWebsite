@@ -23,7 +23,7 @@ function App() {
           <Navbar onRegisterClick={() => setShowRegisterForm(true)} />
           <Hero></Hero>
           <About></About>
-          <Workshop></Workshop>
+          <Workshop onRegisterClick={() => setShowRegisterForm(true)}></Workshop>
           <Footer></Footer>
           {showRegisterForm && (
           <RegisterForm onClose={() => setShowRegisterForm(false)} />
