@@ -6,9 +6,13 @@ import About from './componants/About'
 import Workshop from './componants/Workshop'
 import Footer from './componants/Footer'
 import Background from './componants/Background'
+import RegisterForm from './componants/RegisterForm'
+import React from 'react'
+import { useState } from 'react'
 
 
 function App() {
+  const [showRegisterForm, setShowRegisterForm] = useState(false);
   
 
   return (
@@ -16,13 +20,18 @@ function App() {
     <div className="min-h-screen relative">
       <Background></Background>
         <div className="min-h-screen">
-          <Navbar></Navbar>
+          <Navbar onRegisterClick={() => setShowRegisterForm(true)} />
           <Hero></Hero>
           <About></About>
           <Workshop></Workshop>
           <Footer></Footer>
+          {showRegisterForm && (
+          <RegisterForm onClose={() => setShowRegisterForm(false)} />
+        )}
         </div>
       </div>
+
+      
 
       
     </>

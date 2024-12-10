@@ -3,12 +3,7 @@ import { Menu } from "lucide-react"
 
 
 
-function onRegisterClick()
-{
-
-}
-
-export default function Navbar()
+export default function Navbar({onRegisterClick})
 {
     return(
         <nav className="bg-gray-900/50 w-full top-0 backdrop-blur-md z-50 fixed">
