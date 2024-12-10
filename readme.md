@@ -6,7 +6,7 @@ This is a simple website developed to facilitate registrations for a Stock marke
 
 ## Tech Stack
 
-- **Frontend**: React.js, Lucide-React (icons)
+- **Frontend**: React.js
 - **Backend**: Node.js, Express
 - **Database**: MongoDB
 
