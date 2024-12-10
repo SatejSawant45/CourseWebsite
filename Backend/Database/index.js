@@ -3,12 +3,12 @@ mongoose.connect("mongodb+srv://satejsawant90:llMHIjVUoKUzecxR@satejsawant90clus
 
 const participantSchema = new mongoose.Schema({
 
-    firstname:String,
-    middlename:String,
-    lastnmae:String,
+    firstName:String,
+    middleName:String,
+    lastName:String,
     email:String,
-    contact:String
-
+    contact:String,
+    transactionId:String
 })
 
 const User = mongoose.model('User',participantSchema);
